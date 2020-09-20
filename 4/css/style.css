@@ -29,15 +29,15 @@
 /* Variables */
 :root {
   --basic-black: #000000;
-  --basic-extra-dark:#283136;
+  --basic-extra-dark: #283136;
   --basic-white: #ffffff;
   --basic-grey: #888888;
-  --basic-dark-grey:#666666;
-  --basic-extra-dark-grey:#444444;
-  --basic-extra-white:  #EEEEEE;
+  --basic-dark-grey: #666666;
+  --basic-extra-dark-grey: #444444;
+  --basic-extra-white: #EEEEEE;
   --basic-red: #FB565A;
-  --basic-green:#00CA74;
-  --basic-yellow:#EFC849;
+  --basic-green: #00CA74;
+  --basic-yellow: #EFC849;
   --linear-gradient: 0deg, #E1E1E1, #E1E1E1;
 
 
@@ -54,12 +54,13 @@ body {
   font-weight: 400;
   color: var(--basic-extra-dark);
   text-transform: none;
-  background-color: var(--basic-grey);
-  background-image: url("../img/bg.jpg");
+  background-color: var(--basic-extra-white);
+  background-image: url("../img/nerds-index-slide1 1.png");
   background-position: top center;
   background-repeat: no-repeat;
 }
- a {
+
+a {
   text-decoration: none;
 }
 
@@ -67,6 +68,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 /* Main navigation */
 
 .main-navigation {
@@ -78,20 +80,24 @@ img {
 }
 
 .main-navigation-wrapper {
-  background-color: var(--basic-grey);
+  background-color: var(--basic-extra-white);
 }
+
 .site-navigation {
   list-style: none;
 }
+
 .site-navigation-current a:not([href]) {
   background-color: var(--basic-grey);
 }
-.site-navigation-item{
+
+.site-navigation-item {
   color: var(--basic-black);
-  background-color: var(--basic-grey);
+  background-color: var(--basic-extra-white);
   text-decoration: none;
 
 }
+
 /* User navigation */
 
 
@@ -106,12 +112,14 @@ img {
 .user-navigation a:focus {
   background-color: var(--basic-red);
 }
+
 /* Features */
 .features {
   font-weight: 500;
   font-size: 55px;
   line-height: 55px;
 }
+
 .services-list {
   list-style: none;
 }
@@ -126,6 +134,7 @@ img {
   text-transform: uppercase;
   color: var(--basic-black);
 }
+
 /* Button */
 
 .button {
@@ -139,58 +148,86 @@ img {
   background-color: var(--basic-red);
   border: none;
 }
+
+.green {
+  background-color: var(--basic-green);
+}
+
+.yellow {
+  background-color: var(--basic-yellow);
+}
+
 .about-studio {
   font-weight: 500;
   font-size: 45px;
   line-height: 45px;
   color: var(--basic-black);
 }
-field-of-activity-list{
-  list-style:none;
+
+.field-of-activity-list {
+  list-style: none;
 }
+
 .field-of-activity h2 {
   font-weight: bold;
 }
+
 .our-showing h2 {
   font-weight: bold;
 }
-.conditions{
-font-weight: normal;
-font-size: 16px;
-line-height: 18px;
+
+.conditions {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
 }
+
 .percent {
   font-weight: bold;
   font-size: 45px;
   line-height: 64px;
 }
+
 .partners-list {
   list-style: none;
 }
-/*footer*/
-.modal{
+
+.partner-item a {
+  color: var(--basic-black);
+}
+
+/* Main footer */
+.modal {
   font-weight: bold;
   font-size: 18px;
   line-height: 30px;
   text-transform: uppercase;
   color: var(--basic-black);
 }
-.footer-social-list{
+
+.footer-social-list {
   list-style: none;
 }
-.contacts{
+
+.footer-social-item a {
+  color: var(--basic-black);
+}
+
+.contacts {
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
   color: var(--basic-dark-grey);
 }
-.friendship{
+
+.friendship {
   font-weight: bold;
   font-size: 36px;
   line-height: 36px;
   color: var(--basic-black);
 }
-.discount{
+
+.discount {
   font-weight: normal;
   font-size: 16px;
   line-height: 22px;
