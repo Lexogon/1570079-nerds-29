@@ -54,10 +54,10 @@ body {
   font-weight: 400;
   color: var(--basic-extra-dark);
   text-transform: none;
-  background-color: var(--basic-extra-white);
-  background-image: url("../img/nerds-index-slide1 1.png");
-  background-position: top center;
-  background-repeat: no-repeat;
+  background-color: var( --basic-white);
+  /*background-image: url("../img/nerds-index-slide1 1.png");*/
+  /*background-position: top center;*/
+  /*background-repeat: no-repeat;*/
 }
 
 a {
@@ -81,6 +81,9 @@ img {
 
 .main-navigation-wrapper {
   background-color: var(--basic-extra-white);
+  background-image: url("../img/nerds-index-slide1 1.png");
+  background-position: top center;
+  background-repeat: no-repeat;
 }
 
 .site-navigation {
