@@ -55,7 +55,7 @@ body {
   color: var(--basic-extra-dark);
   text-transform: none;
   background-color: var( --basic-white);
-  /*background-image: url("../img/nerds-index-slide1 1.png");*/
+  /*background-image: url("../img/nerds-index-slide1-1.png");*/
   /*background-position: top center;*/
   /*background-repeat: no-repeat;*/
 }
@@ -81,9 +81,7 @@ img {
 
 .main-navigation-wrapper {
   background-color: var(--basic-extra-white);
-  background-image: url("../img/nerds-index-slide1 1.png");
-  background-position: top center;
-  background-repeat: no-repeat;
+
 }
 
 .site-navigation {
@@ -106,6 +104,7 @@ img {
 
 .site-navigation a,
 .user-navigation a {
+
   color: var(--basic-black);
 }
 
@@ -113,18 +112,46 @@ img {
 .site-navigation a:focus,
 .user-navigation a:hover,
 .user-navigation a:focus {
+
   background-color: var(--basic-red);
 }
-
+.slider{
+  /*
+  background-color: var(--basic-extra-white);
+  */
+}
+.slider-list{
+  list-style:none;
+  background-color: var(--basic-extra-white);
+}
+.slider-item-1 {
+  background-image: url("../img/nerds-index-slide1-1.png");
+  background-position:  center;
+  background-repeat: no-repeat;
+}
+.slider-item-2 {
+  background-image: url("../img/nerds-index-slide2-1.png");
+  background-position:  center;
+  background-repeat: no-repeat;
+}
+.slider-item-3 {
+  background-image: url("../img/nerds-index-slide3-1.png");
+  background-position:  center;
+  background-repeat: no-repeat;
+}
 /* Features */
+
 .features {
   font-weight: 500;
   font-size: 55px;
   line-height: 55px;
+  background-color: var(--basic-extra-white);
+
 }
 
 .services-list {
   list-style: none;
+
 }
 
 .service-item {
@@ -151,7 +178,8 @@ img {
   background-color: var(--basic-red);
   border: none;
 }
-
+.grey{
+  background-color: var(--basic-extra-white);}
 .green {
   background-color: var(--basic-green);
 }
