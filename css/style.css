@@ -116,13 +116,10 @@ img {
   background-color: var(--basic-red);
 }
 .slider{
-  /*
   background-color: var(--basic-extra-white);
-  */
 }
 .slider-list{
   list-style:none;
-  background-color: var(--basic-extra-white);
 }
 .slider-item-1 {
   background-image: url("../img/nerds-index-slide1-1.png");
@@ -133,11 +130,13 @@ img {
   background-image: url("../img/nerds-index-slide2-1.png");
   background-position:  center;
   background-repeat: no-repeat;
+  display:none;
 }
 .slider-item-3 {
   background-image: url("../img/nerds-index-slide3-1.png");
   background-position:  center;
   background-repeat: no-repeat;
+  display:none;
 }
 /* Features */
 
@@ -178,8 +177,7 @@ img {
   background-color: var(--basic-red);
   border: none;
 }
-.grey{
-  background-color: var(--basic-extra-white);}
+
 .green {
   background-color: var(--basic-green);
 }
