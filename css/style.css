@@ -54,7 +54,7 @@ body {
   font-weight: 400;
   color: var(--basic-extra-dark);
   text-transform: none;
-  background-color: var( --basic-white);
+  background-color: var(--basic-white);
   /*background-image: url("../img/nerds-index-slide1-1.png");*/
   /*background-position: top center;*/
   /*background-repeat: no-repeat;*/
@@ -115,32 +115,39 @@ img {
 
   background-color: var(--basic-red);
 }
-.slider{
+
+.slider {
   background-color: var(--basic-extra-white);
 }
-.slider-list{
-  list-style:none;
+
+.slider-list {
+  list-style: none;
 }
+
 .slider-item-1 {
   background-image: url("../img/nerds-index-slide1-1.png");
-  background-position:  center;
+  background-position: center;
   background-repeat: no-repeat;
 }
+
 .slider-item-2 {
   background-image: url("../img/nerds-index-slide2-1.png");
-  background-position:  center;
+  background-position: center;
   background-repeat: no-repeat;
-  display:none;
+  display: none;
 }
+
 .slider-item-3 {
   background-image: url("../img/nerds-index-slide3-1.png");
-  background-position:  center;
+  background-position: center;
   background-repeat: no-repeat;
-  display:none;
+  display: none;
 }
+
 /* Features */
 
-.features {
+.features,
+.page-title {
   font-weight: 500;
   font-size: 55px;
   line-height: 55px;
@@ -223,6 +230,47 @@ img {
 
 .partner-item a {
   color: var(--basic-black);
+}
+
+.sorting {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--basic-black);
+}
+
+.radio,
+.filter-option,
+.sorting-parameters,
+.site-list {
+  list-style: none;
+}
+
+.sorting-parameters {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--basic-black);
+
+}
+
+/* Pagination */
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-item a {
+  color: var(--basic-black);
+  background-color: var(--basic-extra-white);
+}
+
+.pagination-item a:hover,
+.pagination-item a:focus,
+.pagination-item a:active {
+  background-color: var(--special);
 }
 
 /* Main footer */
