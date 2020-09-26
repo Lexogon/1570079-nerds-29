@@ -184,7 +184,10 @@ img {
   background-color: var(--basic-red);
   border: none;
 }
-
+.button.filter-button {
+  color: var(--basic-black);
+  background-color: var( --basic-extra-white);
+}
 .green {
   background-color: var(--basic-green);
 }
@@ -246,6 +249,22 @@ img {
 .site-list {
   list-style: none;
 }
+.filter-option:hover{
+  color: #4D4D4D;
+  opacity: 0.4;
+}
+input[type="radio"]{
+background-color: #4D4D4D;}
+
+.filter-radio,
+.filter-checkbox
+{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--basic-extra-dark);
+}
+
 
 .sorting-parameters {
   font-weight: normal;
@@ -295,6 +314,7 @@ img {
   font-size: 16px;
   line-height: 18px;
   color: var(--basic-dark-grey);
+  background-color: var(--basic-white);
 }
 
 .friendship {
