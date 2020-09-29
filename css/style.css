@@ -136,13 +136,17 @@ img {
 /* Logo */
 
 .main-header-logo {
-  justify-self: left;
+  width: 160px;
+  height: 65px;
+  /*justify-self: left;*/
+  margin-left: 770px;
   outline: 5px solid rgba(255, 0, 0, 0.3);
   outline-offset: -5px;
 }
 
 .main-header-bar {
   background-color: var(--basic-extra-white);
+
 }
 
 .main-navigation-wrapper {
@@ -155,9 +159,15 @@ img {
 }
 
 .site-navigation {
-  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 437px;
+  margin-left: 202px;
   padding: 0;
+  min-height: 114px;
   list-style: none;
+  outline: 5px solid rgba(0, 255, 255, 0.3);
+  outline-offset: -5px;
 }
 
 .site-navigation-current a:not([href]) {
@@ -180,12 +190,24 @@ img {
   color: var(--basic-black);
 }
 
+.user-navigation {
+  max-width: 228px;
+  outline: 5px solid rgba(255, 0, 255, 0.3);
+  outline-offset: -5px;
+}
+
 .site-navigation a:hover,
 .site-navigation a:focus,
 .user-navigation a:hover,
 .user-navigation a:focus {
 
   background-color: var(--basic-red);
+}
+
+/* Login link */
+
+.user-navigation .login-link {
+  padding-left: 40px;
 }
 
 .slider {
@@ -349,11 +371,13 @@ img {
   outline: 5px solid rgba(255, 0, 255, 0.7);
   outline-offset: -5px;
 }
+
 .filter fieldset {
   padding: 0;
   margin: 0;
   border: none;
 }
+
 .sorting {
   font-weight: bold;
   font-size: 18px;
@@ -408,19 +432,36 @@ input[type="radio"] {
 }
 
 .catalog-list {
+  display: flex;
+  flex-wrap: wrap;
   padding: 0;
   margin: 0;
   margin-bottom: 60px;
 
 }
 
+.catalog-item {
+  width: 359px;
+  min-height: 578px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: var(--basic-white);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+
+.catalog-item:nth-child(2n) {
+  margin-right: 0;
+}
+
 /* Pagination */
 
 .pagination-list {
+  display: flex;
   list-style: none;
 }
 
 .pagination-item a {
+  margin-left: 10px;
   color: var(--basic-black);
   background-color: var(--basic-extra-white);
 }
@@ -449,9 +490,12 @@ input[type="radio"] {
 
 .footer-social {
   grid-column: 1 / -1;
+
+
 }
 
 .footer-social-list {
+  display: flex;
   list-style: none;
 }
 
