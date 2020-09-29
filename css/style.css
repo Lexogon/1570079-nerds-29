@@ -99,6 +99,7 @@ img {
 }
 
 .page-catalog .all-sorting-parameters {
+  margin-bottom: 48px;
   order: 2;
   grid-column: 1 / -1;
   outline: 5px solid rgba(0, 0, 255, 0.7);
@@ -348,7 +349,11 @@ img {
   outline: 5px solid rgba(255, 0, 255, 0.7);
   outline-offset: -5px;
 }
-
+.filter fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
 .sorting {
   font-weight: bold;
   font-size: 18px;
@@ -360,7 +365,7 @@ img {
 .radio,
 .filter-option,
 .sorting-parameters,
-.site-list {
+.catalog-list {
   list-style: none;
 }
 
@@ -383,6 +388,8 @@ input[type="radio"] {
 
 
 .sorting-parameters {
+  padding: 0;
+  margin: 0;
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
@@ -395,9 +402,16 @@ input[type="radio"] {
 
 .catalog {
   order: 4;
-  margin-left: 141px;
+  margin-left: 140px;
   outline: 5px solid rgba(0, 255, 255, 0.7);
   outline-offset: -5px;
+}
+
+.catalog-list {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 60px;
+
 }
 
 /* Pagination */
