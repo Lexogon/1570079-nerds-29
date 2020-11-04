@@ -262,7 +262,8 @@ cursor: pointer;
   /*margin-left: 202px;*/
   margin-right: 50px;
   padding: 0;
-  padding-top: 5x;
+  margin-top: 9px;
+  margin-left: 6px;
   /* padding-right: -10px; */
   /*min-height: 114px;*/
   list-style: none;
@@ -279,7 +280,7 @@ cursor: pointer;
   color: var(--basic-black);
   /* background-color: var(--basic-extra-white); */
   text-decoration: none;
-padding-top: 5px;
+padding-top: 16px;
 padding-left: 2px;
 }
 
@@ -305,6 +306,7 @@ padding-left: 2px;
   flex-wrap: wrap;
   max-width: 115px;
   /*margin-top: 10px;*/
+  margin-bottom: 3px;
   padding-right:10px;
   align-content: center;
   /*min-height: 114px;*/
@@ -330,8 +332,8 @@ padding-left: 2px;
 .login-link::before {
   content: "";
   position: absolute;
-  top: 8px;
-  left: 10px;
+  top: 7px;
+  left: 3px;
   width: 15px;
   height: 15px;
   background-image: url("../img/cart-icon.svg");
@@ -891,7 +893,7 @@ margin-left: -5px;
   order: 2;
   margin: 0;
   padding-top:20px;
-  margin-top: 45px;
+  margin-top: 40px;
   margin-left: 10px;
 
   /* outline: 5px solid rgba(255, 0, 255, 0.7);
@@ -927,7 +929,7 @@ margin-left: -5px;
   opacity: 1.0;
 }
 .sorting2{
-  padding-top: 20px;
+  padding-top: 15px;
   display: flex;
   font-weight: bold;
   font-size: 18px;
@@ -959,7 +961,7 @@ margin-left: -5px;
 .filter-input-radio + label::before {
   content: "";
   position: absolute;
-  left: -42px;
+  left: -38px;
   top: -4px;
   width: 15px;
   height: 15px;
@@ -977,7 +979,7 @@ margin-left: -5px;
   content: "";
   position: absolute;
   top: 4px;
-  left: -34px;
+  left: -30px;
   width: 9px;
   height: 9px;
   background-color: #4D4D4D;
@@ -992,9 +994,13 @@ margin-left: -5px;
 .check{
   margin: 0;
 }
+.price{
+  margin-top: -15px;
+
+}
 .sorting {
   display: flex;
-  padding-top: 54px;
+  padding-top: 52px;
   font-weight: bold;
   font-size: 18px;
   line-height: 30px;
@@ -1029,8 +1035,8 @@ margin-left: -5px;
   line-height: 19px;
   color:var (--basic-extra-dark);
   padding-top: 3px;
-  padding-bottom: 15px;
-  padding-right: 0px;
+  padding-bottom: 17px;
+  margin-left: -5px;
   
 
 }
@@ -1039,9 +1045,11 @@ margin-left: -5px;
   font-size: 16px;
   line-height: 19px;
   color:var (--basic-extra-dark);
-  padding-top: 12px;
-  padding-bottom: 8px;
+  padding-top: 15px;
+  padding-bottom: 4px;
   padding-right: 0px;
+  margin-left: -4px;
+  margin-top: 2px;
 }
 .filter-checkbox:hover {
   color: #283136;}
@@ -1077,7 +1085,7 @@ input[type="radio"] {
   position: relative;
   height: 41px;
   margin-bottom: 15px;
-  padding-top: 39px;
+  padding-top: 44px;
   padding-right: 20px;
   padding-left: 20px;
   background-color: #f1f1f1;
@@ -1313,7 +1321,7 @@ opacity: 1;
   margin-left: 420px;
   /* outline: 5px solid rgba(0, 255, 255, 0.7);
   outline-offset: -5px; */
-  margin-top: -700px;
+  margin-top: -698px;
   margin-right: 10px;
 }
 
@@ -1494,11 +1502,11 @@ h3.name:hover{
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
-  margin-bottom: -80px;
-  padding-bottom: 30px;
+  margin-bottom: -64px;
+  padding-bottom: 40px;
   list-style: none;
-  margin-top: 25px;
-  margin-left: -20px;
+  margin-top: 22px;
+  margin-left: -17px;
 }
 
 .pagination-item a {
@@ -1582,14 +1590,14 @@ position: relative;
 
 
 .map img{ 
-  position: absolute;
   /* width: 100%; */
   /* top:35px; */
   /* left: 0;
   top:0; */
-  z-index: -1;
-  left: 285px;
-  justify-content: center;
+  margin-left: 285px;
+   /* z-index: -1; */
+  /* left: 285px;  */
+  /* justify-content: center; */
   /* min-height: 416px; */
   /* margin: 0 auto; */
 /* top:450px; */
@@ -1616,15 +1624,15 @@ padding-left: 175px; */
 top:35px; */
 /* background-repeat: no-repeat;
 background-position: 0 0; */
-/* left: 50%;
-margin-left:1140px; */
+ /* left: 50%; */
+/* margin-left:1140px; */
 }
-.main-footer .marker{
+/* .main-footer .marker{
   position: absolute;
 /* background-image: url("..img/map-marker1.png");  */
-  padding-left: 822px;
+  /* padding-left: 822px;
   padding-top: 86px;
-}
+} */ 
 .modal-h {
 padding-top: 27px;
 margin-left: 50px;
@@ -1663,7 +1671,7 @@ font-weight: bold;
   */
   /* text-align: center; */
   background-color: var(--basic-white);
-  top: 61px;
+  bottom: 55px;
 }
 
 .main-footer .container {
