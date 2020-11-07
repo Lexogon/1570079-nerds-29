@@ -2089,7 +2089,7 @@ background-repeat: no repeat;
 /* Modal login */
 
 .modal-write {
-  display: block;
+  display: none;
   /* position: relative; */
   justify-content: space-between;
   top: 150px;
