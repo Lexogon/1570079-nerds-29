@@ -411,7 +411,6 @@ margin-top: -5px;
 }
 
 
-.button:focus,
 .button:active {
   color: #FFFFFF;
   opacity: 0.3;
@@ -1144,9 +1143,7 @@ margin-left: 14px;
   position: relative;
   padding-bottom: 26px;
   padding-top:40px;
-  background-color: var(--basic-white);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
-}
+ }
 
 .catalog-item:nth-child(2n) {
   margin-right: 0;
@@ -1509,10 +1506,7 @@ background-repeat: no repeat;
   background-repeat: repeat;
   box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.4);
 }
-.modal-show {
-  display: block;
-  animation: bounce 0.6s;
-}
+
 /* Animations */
 
 @keyframes bounce {
@@ -1698,5 +1692,9 @@ border-radius: 3px;
   margin-left: -2px;
   text-align: center;
   align-content: center;
-  padding-left: 65px;
+  border: none;
+}
+.modal-show {
+  display: block;
+  animation: bounce 0.6s;
 }
