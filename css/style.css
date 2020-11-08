@@ -767,8 +767,12 @@ margin-left: -5px;
   opacity: 1.0;
 }
 
-
-
+.filter-input-radio:checked:focus + label::after{
+  opacity: 1.0;
+}
+.filter-input-checkbox:checked:focus + label::after{
+  opacity: 1.0;
+}
 .sorting2{
   padding-bottom: 0px;
   padding-top: 7px;
@@ -1233,6 +1237,9 @@ background-color: #4D4D4D;
 
  
 h3.name:hover{
+  color: #FB565A;
+}
+h3.name:focus{
   color: #FB565A;
 }
  .description {
