@@ -1695,6 +1695,8 @@ border-radius: 3px;
 }
 .send{
   margin-left: -2px;
+  padding-right: 72px;
+  padding-left: 73px;
   text-align: center;
   align-content: center;
   border: none;
