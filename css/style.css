@@ -844,8 +844,8 @@ background-color: var(--basic-white);
 .filter-input-radio:checked + label::after {
   content: "";
   position: absolute;
-  top: 4px;
-  left: -27px;
+  top: 4.25px;
+  left: -26.75px;
   width: 9px;
   height: 9px;
   background-color: #4D4D4D;
