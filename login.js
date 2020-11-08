@@ -1,4 +1,4 @@
-const buttonWrite = document.querySelector(".button write");
+const buttonWrite = document.querySelector(".button.write");
 const loginPopup = document.querySelector(".modal-write");
 const loginClose = loginPopup.querySelector(".modal-close");
 const loginForm = loginPopup.querySelector(".name-form");
