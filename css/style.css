@@ -289,10 +289,8 @@ padding-left: 2px;
 
 .slider-controls {
   position: absolute;
-
   bottom: 95px;
   left: 555px;
-  z-index: 20;
   display: flex;
   width: 88px;
   justify-content: space-between;
@@ -1346,7 +1344,6 @@ font-weight: bold;
   left: 15x;
   margin-left: 20px;
   width: 319px;
-  z-index: 2;
   background-color: var(--basic-white);
   bottom: 55px;
 }
@@ -1598,7 +1595,7 @@ line-height: 18px;
 text-transform:none;
 width: 360px;
 margin-top: -89px;
-padding-bottom: 100px;
+padding-bottom: 106px;
 margin-left: 390px;
 }
 .modal-show {

@@ -17,7 +17,7 @@ try {
 buttonWrite.addEventListener("click", function (evt) {
   evt.preventDefault();
   loginPopup.classList.add("modal-show");
-  
+
   if (storage) {
     loginLogin.value = storage;
     loginPassword.focus();
