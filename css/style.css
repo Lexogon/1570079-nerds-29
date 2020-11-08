@@ -761,8 +761,14 @@ margin-left: -5px;
 
 }
 .filter-input-checkbox:focus + label {
-  color: red;
+  color: #283136;
 }
+.filter-input:focus + label::before{
+  opacity: 1.0;
+}
+
+
+
 .sorting2{
   padding-bottom: 0px;
   padding-top: 7px;
@@ -820,9 +826,10 @@ background-color: var(--basic-white);
   border-radius: 50%;
   opacity: 0.4;
 }
+
+
 .filter-input-radio:focus + label {
-  color: red;
-  
+  color: #283136;
 }
 .filter-input-radio + label:hover:before{
   border: 5px solid #4D4D4D;
@@ -1193,10 +1200,9 @@ background-color: #4D4D4D;
     background-color: var(--basic-extra-white);
 
   }
-
-.catalog-item:focus-within.popup{
-  display: block;
-}
+  .catalog-item:focus-within .popup{
+    display: block;
+    }
 .catalog-item:hover .popup{
   display: block;
 }
