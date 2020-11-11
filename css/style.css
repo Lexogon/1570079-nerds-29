@@ -860,7 +860,7 @@ img {
   content: "";
   position: absolute;
   top: 5px;
-  left: -29px;
+  left: -26px;
   width: 9px;
   height: 9px;
   background-color: var(--basic-darkest-grey);
