@@ -418,10 +418,13 @@ img {
 
 .button:active {
   color: var(--basic-white);
-  opacity: 0.3;
   background-color: var(--basic-dark-red);
-  box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
 }
+
+.button:active span {
+  color: var(--basic-white);
+  opacity: 0.3;
+} 
 
 .button.filter-button {
   display: flex;
